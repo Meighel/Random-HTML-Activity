@@ -1,5 +1,5 @@
 <?php
-		class Person {
+	class Person {
 	  public $name;
 	  public $age;
 	}
@@ -9,4 +9,6 @@
 	$person-> age = 25;
 	
 	print_r($person)
+
+	
 ?>
