@@ -69,4 +69,20 @@
 	  ];
 	  
 	echo $matrix[1][2];
+
+	$people = [
+	    [
+	      'first_name' => 'John',
+	      'last_name' => 'Doe',
+	      'email' => 'john@gmail.com',
+	    ],
+	    [
+	      'first_name' => 'Jane',
+	      'last_name' => 'Doe',
+	      'email' => 'jane@gmail.com',
+	    ],
+	  ];
+	  
+	  echo $people[0]['first_name'];
+	  echo $people[2]['email']; 
 ?>
