@@ -22,4 +22,11 @@
 	echo "$name is $age years old\n";
 	echo "${name} is ${age} years old\n";
 	echo '<h3>' . $name . 'is' . $age . ' years old</h3>'
+
+	define('HOST', 'localhost');
+	define('USER', 'root');
+	define('PI', 3.1416);
+	
+	echo HOST;
+	echo PI;
 ?>
