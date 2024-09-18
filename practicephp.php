@@ -29,4 +29,36 @@
 	
 	echo HOST;
 	echo PI;
+
+	class MathOperations {
+	    const PI = 3.14159;
+	    const EULER_NUMBER = 2.71828;
+	  }
+	$MathOperations = new MathOperations();
+	$MathOperations-> PI = "Alice";
+	$MathOperations-> EULER_NUMBER = 25;
+	  
+	print_r($MathOperations);
+
+	$numbers = [1, 2, 3, 4, 5];
+	echo $numbers[3] + $numbers[4];
+
+	$colors = ['red', 'green', 'blue'];
+	echo $colors[3];
+
+	$person = [
+	      "first_name"=> "John",
+	      "last_name"=> "Doe",
+	      "age" => 30
+	    ];
+	    
+	echo $person["first_name"];
+
+	$hex = [
+	      "red"=> "#f00",
+	      "green"=> "#0f0",
+	      "blue" => "#00f",
+	    ];
+	    
+	echo $hex["red"];
 ?>
