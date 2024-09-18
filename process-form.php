@@ -11,9 +11,6 @@
         $areaSquared = $s * ($s - $side1) * ($s - $side2) * ($s - $side3);
         $area = pow($areaSquared, 1/2);  
 
-        if (isset($area)) {
-            echo "<div class='result'>$area</div>";
-        }
         echo "<div class='result'>The area of the triangle is: " . number_format($area, 2) . " square units</div>";
-            }
-?>
+    }
+
