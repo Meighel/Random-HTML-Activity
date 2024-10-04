@@ -21,7 +21,7 @@
 	
 	echo "$name is $age years old\n";
 	echo "${name} is ${age} years old\n";
-	echo '<h3>' . $name . 'is' . $age . ' years old</h3>'
+	echo '<h3>' . $name . 'is' . $age . ' years old</h3>';
 
 	define('HOST', 'localhost');
 	define('USER', 'root');
